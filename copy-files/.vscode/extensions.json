@@ -12,12 +12,11 @@
 		"formulahendry.auto-close-tag",
 		"msjsdiag.debugger-for-chrome",
 		"quicktype.quicktype",
-		"robinbentley.sass-indented",
-		"Rubymaniac.vscode-paste-and-indent",
+		"syler.sass-indented",
 		"slevesque.vscode-multiclip",
 		"streetsidesoftware.code-spell-checker",
-		"vincaslt.highlight-matching-tag",
 		"WallabyJs.quokka-vscode",
 		"pkief.material-icon-theme",
+		"rubymaniac.vscode-paste-and-indent"
 	]
 }
