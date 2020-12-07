@@ -1,27 +1,38 @@
 {
   "debug.node.autoAttach": "on",
-  "editor.detectIndentation": true,
-  "editor.insertSpaces": true,
-  "editor.tabSize": 2,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "explorer.openEditors.visible": 0,
-  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.maxColumn": 200,
-  "editor.minimap.showSlider": "always",
-  "editor.renderWhitespace": "selection",
-  "editor.smoothScrolling": true,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "telemetry.enableCrashReporter": false,
   "workbench.editor.restoreViewState": true,
   "breadcrumbs.enabled": false,
-  // "guides.active.expandBrackets": true,
-  // "guides.active.enabled": true,
-  // "guides.active.extraIndent": false,
-  // "guides.active.gutter": false,
+
+  // -- EDITOR GENERAL -- //
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "editor.renderWhitespace": "selection",
+  "editor.smoothScrolling": true,
+  "editor.lineNumbers": "on",
+
+  // -- CURSOR -- //
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorSurroundingLines": 0, // ?
+  "editor.cursorWidth": 2,
+
+  // -- MINI MAP -- //
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 200,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.side": "right",
+  "editor.minimap.scale": 1,
+  "editor.minimap.size": "fit",
+
+  // -- EXTENSION: spywhere.guides -- //
   "guides.active.hideOnSelection": true,
   "guides.active.width": 3,
   "guides.active.expandBrackets": true,
@@ -30,7 +41,10 @@
   "guides.stack.enabled": false,
   "guides.updateDelay": 0.15,
   "guides.overrideDefault": true,
-  "guides": true,
+  // "guides.active.expandBrackets": true,
+  // "guides.active.enabled": true,
+  // "guides.active.extraIndent": false,
+  // "guides.active.gutter": false,
 
   // "telemetry.enableTelemetry": false,
   "editor.tokenColorCustomizations": {
@@ -47,7 +61,16 @@
       ]
   },
   "cSpell.words": [
-      "Unmount"
+      "Unmount",
+      "Vals",
+      "Basemap",
+      "Unmount",
+      "bottomright",
+      "defn",
+      "devtool",
+      "devtools",
+      "postbuild",
+      "redux"
   ],
   "editor.rulers": [80],
   "typescript.tsdk": "node_modules\\typescript\\lib",
