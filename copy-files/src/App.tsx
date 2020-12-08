@@ -1,4 +1,3 @@
-import React from 'react';
 import { linker, State, store } from './store';
 
 type S = { };

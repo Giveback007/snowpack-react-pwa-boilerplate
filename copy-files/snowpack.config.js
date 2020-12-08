@@ -44,6 +44,12 @@ module.exports = {
       /* ... */
     },
     alias: {
+      "src": "./src",
+      "@types": "./src/@types",
+      "components": "./src/components",
+      "data": "./src/data",
+      "styles": './src/styles',
+      "views": "./src/views"
       /* ... */
     },
 };
